@@ -2,7 +2,7 @@
 
 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
     <div class="app-brand demo">
-      <a href="{{ route('dashboard.index') }}" class="app-brand-link">
+      <a href="{{ route('dashboard') }}" class="app-brand-link">
         <img  classe="img" src="{{asset('images/logo-IIT.png')}}"   style="width:80px ;margin-left: 50px; ">
       </a>
 

@@ -9,8 +9,6 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
-use App\Models\Admin\Admin;
-use Illuminate\Support\Facades\Hash;
 
 
 class AuthenticatedSessionController extends Controller
@@ -28,28 +26,15 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request): RedirectResponse
     {
-        //dd('mar7aba');->nsta3milha fel login
-        $find=Admin::where('email',$request->email)->first();
-        if($find===null){
-            return back()->withErrors([
-                'email' => 'These email does not exist',
-            ]);
-        }else{
-            $isValidPassword = Hash::check($request->password, $find->password);
-            if($isValidPassword===false){
-                return back()->withErrors([
-                    'email' => 'These password is incorrecte',
-                ]);
-            }else{
-                return redirect()->intended('dashboard');
-            }
-        }   
-/* 
+        //dd('mar7aba');->nsta3milha fel login  
+        
         $request->authenticate();
 
         $request->session()->regenerate();
+        //return redirect()->route('dashboard');
 
-        return redirect()->intended(RouteServiceProvider::HOME); */
+        return redirect()->intended(RouteServiceProvider::HOME); 
+        
     }
 
     /**
