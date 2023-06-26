@@ -81,8 +81,7 @@
               <a  style="font-size:14px;font-family: Georgia, serif; color:rgb(0, 0, 0); margin-left:-6%; "
                 class="text-sm font-medium hover:underline" href="{{ route('password.request') }}"> Mot de passe oublié? </a> @endif </p>
 </form>
-<a   style="font-size:14px; font-family: Georgia, serif;color:rgb(0, 0, 0); margin-left:-13%;"class="text-sm font-medium hover:underline"  href="{{ route('register') }}">
-                Créer un compte </a>
+
 </div>
             
             <div class="signup-box">

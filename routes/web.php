@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Admin\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,9 +31,7 @@ Route::middleware('auth')->group(function () {
 
 Route::group(['middleware' => 'auth:admin'], function () {
     // Routes accessible only to authenticated admins...
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->middleware(['auth', 'verified'])->name('dashboard');
+    Route::get('dashboard',[\App\Http\Controllers\Admin\DashboardController::class,'index'])->name('dashboard.index');
 });
 
 require __DIR__.'/auth.php';
