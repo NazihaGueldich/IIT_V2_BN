@@ -10,11 +10,11 @@
 
         <div class="row">
             <div class="row mb-4">
-                <div class="col-md-6 col-lg-4 mb-3">
+                <div class="col-xl-3" style="padding-left:50px;">
                     <div class="card h-100">
                         <div class="card-body">
                             <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/4715/4715330.png"
-                                alt="Card image cap" />
+                                alt="Card image cap" style="width: 200px;" />
                         </div>
                     </div>
                 </div>
@@ -91,6 +91,19 @@
                                                     aria-label="Close"></button>
                                             </div>
                                         @endif
+                                        @if (session('status') === 'password-updated')
+                                            <div class="alert alert-success alert-dismissible" role="alert" id="alert-success">
+                                                Mot De Passe Modifier
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                        @else
+                                            <div class="alert alert-danger alert-dismissible" role="alert" id="alert-success">
+                                                Vos informations sont incorrectes
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                        @endif
                                     </div>
                                 </form>
                             </div>
@@ -160,7 +173,7 @@
             <!-- Tabs -->
         </div>
         <!-- / Content -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
             $("#passwordForm").submit(function(e) {
                 e.preventDefault(); // Prevent default form submission
@@ -199,6 +212,6 @@
                     }
                 });
             });
-        </script>
+        </script> --}}
 
         @include('Admin.layout.footer')
