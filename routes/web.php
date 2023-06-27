@@ -32,10 +32,12 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::group(['middleware' => 'auth:admin'], function () {
+Route::get('dashboard', [DashboardController::class,'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
+
+Route::group(['middleware' => 'auth:admin'], function () {
+    
     });
-    Route::get('dashboard', [DashboardController::class,'index'])->name('dashboard');
 
 
 require __DIR__.'/auth.php';

@@ -17,16 +17,7 @@ class Admin extends  Authenticatable
         'email',
         'password',
     ];
-/* 
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
-
-   
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-        'password' => 'hashed',
-    ]; */
+    //zdt il attribut he4i bch ki n'updati il profili maya3tinich hal erreure "Column not found: 1054 Unknown column 'updated_at' in 'field list'"
+    public $timestamps = false;
 
 }
