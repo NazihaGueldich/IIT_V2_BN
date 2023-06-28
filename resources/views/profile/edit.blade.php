@@ -97,7 +97,8 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="alert"
                                                     aria-label="Close"></button>
                                             </div>
-                                        @else
+                                        @endif
+                                        @if ($errors->updatePassword->get('password_confirmation'))
                                             <div class="alert alert-danger alert-dismissible" role="alert" id="alert-success">
                                                 Vos informations sont incorrectes
                                                 <button type="button" class="btn-close" data-bs-dismiss="alert"
