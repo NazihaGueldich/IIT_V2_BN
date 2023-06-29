@@ -35,8 +35,22 @@
 
             </div>
         </div>
-    </section>
+        <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
+            <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
+                <p style="font-size: 1.5rem; color: #0d1d42; margin-left:80%; margin-top:17%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
+            </a>
+        </div>
 
+    </section>
+    <div class="container" style="color: white">
+        <div style="    border: none;
+        border-top: 3px double #ededf2;
+        color: #1307c5;
+        overflow: visible;
+        text-align: center;
+        height: 5px; margin-top:0%">
+        </div>
+             </div>
     <main>
     <!-- Trusted -->
 
@@ -54,27 +68,6 @@
 
     <!-- Footer -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
-                    <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
-                        <p style="font-size: 1.5rem; color: #fafafa; margin-left:80%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
-                    </a>
-                </div>
-                <div style="    border: none;
-                border-top: 3px double #ededf2;
-                color: #1307c5;
-                overflow: visible;
-                text-align: center;
-                height: 5px; margin-top:4%">
-                </div>
-            </div>
-
-        </div>
-
-    </footer>
 
 <style> html{
     font-size:1rem;
@@ -547,7 +540,7 @@ footer .logo{
 }
 @media(min-width: 768px){
     .container{
-        max-width:750px
+        max-width:850px
     }
     .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{
         float:left
