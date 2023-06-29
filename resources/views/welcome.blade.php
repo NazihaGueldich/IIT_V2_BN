@@ -16,7 +16,7 @@
 
         <div class="container" >
             <div class="row">
-                <div class="col-sm-6" style="margin-left: -20%; margin-top:-3%;">
+                <div class="col-sm-6" style=" margin-top:-3%;">
 
                     <h1 class="jumbo" style="font-family: Georgia;">BIENVENUE...</h1>
 
@@ -314,7 +314,7 @@ header #navbar .logo{
     background-image:radial-gradient(54.35% 54.35% at 13.82% 7%, #2e48ca 0%, #aab9f8 100%)
 }
 #hero .hero-img{
-margin-left: 60%;
+
 margin-top: -20%;
 
     max-width:580px;

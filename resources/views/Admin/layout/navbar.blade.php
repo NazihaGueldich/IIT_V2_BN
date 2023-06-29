@@ -44,7 +44,7 @@
                          </a>
                      </li>
                      <li>
-                         <a class="dropdown-item" href="#">
+                         <a class="dropdown-item" href="{{route('admins.index')}}">
                           <i class="fas fa-users"></i>
                              <span class="align-middle">Admins</span>
                          </a>

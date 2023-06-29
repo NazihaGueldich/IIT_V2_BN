@@ -48,6 +48,17 @@
       </li>
 
       <li class="menu-header small text-uppercase">
+        <span class="menu-header-text">Notes</span>
+      </li>
+
+      <li class="menu-item">
+        <a href="{{ route('validationNote') }}" class="menu-link">
+          <i class="fas fa-clipboard-check"></i>&nbsp;&nbsp;&nbsp;
+          <div data-i18n="Basic">Validation de notes</div>
+        </a>
+      </li>
+
+      <li class="menu-header small text-uppercase">
         <span class="menu-header-text">Pages</span>
       </li>
       <li class="menu-item">

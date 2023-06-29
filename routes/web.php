@@ -44,11 +44,13 @@ Route::group(['middleware' => 'auth:admin'], function () {
 
 // Validation Note
 Route::controller(NoteValidationController::class)->group(function(){
-   Route::get('validation_note',"index")->name('admin.validationNote');
-   Route::get('validation_note/filter',"filter")->name('admin.validationNote.filter');
-   Route::get('validation_note/unlock',"unlock")->name('admin.validationNote.unlock');
-   Route::get('validation_note/validate',"validateNote")->name('admin.validationNote.validate');
+   Route::get('validation_note',"index")->name('validationNote');
+   Route::get('validation_note/filter',"filter")->name('validationNote.filter');
+   Route::get('validation_note/unlock',"unlock")->name('validationNote.unlock');
+   Route::get('validation_note/validate',"validateNote")->name('validationNote.validate');
 });
+
+
 
  //gestion admins
  Route::resource('admins', 'AdminAuthController', [
@@ -57,8 +59,11 @@ Route::controller(NoteValidationController::class)->group(function(){
 
 Route::resource("admins",AdminAuthController::class)->middleware(['auth']); 
 
-/* Route::get('activate', 'AdminController@activate')->name('active');
-Route::get('activateEnseignant', 'AdminController@activate_ensegnant')->name('activate_ensegnant'); */
+        Route::get('activate', 'AdminController@activate')->name('active');
+        Route::get('activateEnseignant', 'AdminController@activate_ensegnant')->name('activate_ensegnant');
+
+        Route::get('editpassword/{admin}', 'AdminControllerFe@showform')->name('edit.show');
+        Route::post('editpassword/{admin}', 'AdminController@editPassword')->name('edit.store');
 
 
 require __DIR__.'/auth.php';
