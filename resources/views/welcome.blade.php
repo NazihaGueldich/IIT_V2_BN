@@ -16,7 +16,7 @@
 
         <div class="container" >
             <div class="row">
-                <div class="col-sm-6" style=" margin-top:-3%;">
+                <div class="col-sm-6" style=" margin-top:2%;">
 
                     <h1 class="jumbo" style="font-family: Georgia;">BIENVENUE...</h1>
 
@@ -26,11 +26,12 @@
                     <a href="http://127.0.0.1:8000/login" class="btn btn-primary btn-lg"><i class="fa-solid fa-download" target="_blank"></i> &nbsp;Administration</a>&nbsp;&nbsp; <a href="https://enseignant.iitadmin.tn/login" class="btn btn-secondary" target="_blank" ></i> &nbsp;Enseignant</a>
                 </div>
 
-                <div class="col-sm-6" >
+                <div class="col-sm-6">
                     <a href="https://iit.tn" title="logo" target="_blank">
-                        <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" class="hero-img" alt="" >
+                      <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" style="max-width: 100%; height: auto; margin-left:18%" alt="">
                     </a>
-                </div>
+                  </div>
+
 
             </div>
         </div>
@@ -428,8 +429,8 @@ height:42%;
     padding:3rem 0
 }
 footer{
-   margin-top:5%;
-    background:radial-gradient(54.35% 54.35% at 13.82% 7%, #8798e5 0%, #354285 100%)
+   margin-top:2%;
+    background:radial-gradient(54.35% 54.35% at 13.82% 7%, #202539 0%, #354285 100%)
 }
 footer h3{
     font-size:.95rem;
