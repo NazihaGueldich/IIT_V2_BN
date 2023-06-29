@@ -16,7 +16,7 @@
 
         <div class="container" >
             <div class="row">
-                <div class="col-sm-6" style=" margin-top:2%;">
+                <div class="col-sm-6" style=" margin-top:-1%;">
 
                     <h1 class="jumbo" style="font-family: Georgia;">BIENVENUE...</h1>
 
@@ -28,7 +28,7 @@
 
                 <div class="col-sm-6">
                     <a href="https://iit.tn" title="logo" target="_blank">
-                      <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" style="max-width: 100%; height: auto; margin-left:18%" alt="">
+                      <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" style="max-width: 100%; height: auto; margin-left:25%" alt="">
                     </a>
                   </div>
 
@@ -58,17 +58,22 @@
         <div class="container">
             <div class="row">
 
-
-                <div class="col-sm-3" style="margin-left:40%;font-family: Gill Sans Extrabold, sans-serif; padding:-20%">
-
-                    <a href="https://exadev.tn/"  target="_blank" style="color: #c4c9d8">
-
-
-                    <p  style=" font-size:1.5rem; color:#fafafa ;"><small>&copy; <strong>Exadev.tn</small></p>
+                <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
+                    <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
+                        <p style="font-size: 1.5rem; color: #fafafa; margin-left:80%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
                     </a>
                 </div>
+                <div style="    border: none;
+                border-top: 3px double #ededf2;
+                color: #1307c5;
+                overflow: visible;
+                text-align: center;
+                height: 5px; margin-top:4%">
+                </div>
             </div>
+
         </div>
+
     </footer>
 
 <style> html{
@@ -269,7 +274,7 @@ h6{
         font-size:3rem
     }
     h1.jumbo{
-        font-size:4.5rem;
+        font-size:3.5rem;
         font-family: Verdana;
     }
     h2{
@@ -312,7 +317,7 @@ header #navbar .logo{
 }
 #hero{
     padding:0 0 12rem 0;
-    background-image:radial-gradient(54.35% 54.35% at 13.82% 7%, #2e48ca 0%, #aab9f8 100%)
+    background-image:radial-gradient(54.35% 54.35% at 13.82% 7%, #213ab9 0%, #a6b8fe 100%)
 }
 #hero .hero-img{
 
@@ -430,7 +435,7 @@ height:42%;
 }
 footer{
    margin-top:2%;
-    background:radial-gradient(54.35% 54.35% at 13.82% 7%, #202539 0%, #354285 100%)
+    background:radial-gradient(54.35% 54.35% at 13.82% 7%, #5d6eae 0%, #354285 100%)
 }
 footer h3{
     font-size:.95rem;
