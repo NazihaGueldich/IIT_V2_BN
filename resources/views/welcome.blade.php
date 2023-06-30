@@ -1,56 +1,41 @@
-
-<!-- Hero -->
 <section id="hero">
-
     <header style="color: white">
         <div class="container" style="color: white">
-        <div style="    border: none;
-        border-top: 3px double #ededf2;
-        color: #1307c5;
-        overflow: visible;
-        text-align: center;
-        height: 5px; margin-top:1%">
+            <div style="border: none; border-top: 3px double #ededf2; color: #1307c5; overflow: visible; text-align: center; height: 5px; margin-top:1%"></div>
         </div>
-             </div>
-     </header>
+    </header>
 
-        <div class="container" >
-            <div class="row">
-                <div class="col-sm-6" style=" margin-top:1%;">
-
-                    <h1 class="jumbo" style="font-family: Georgia;">BIENVENUE...</h1>
-
-                    <p>La satisfaction de nos clients est notre priorité.</p>
-                    <br>
-
-                    <a href="http://127.0.0.1:8000/login" class="btn btn-primary btn-lg"><i class="fa-solid fa-download" target="_blank"></i> &nbsp;Administration</a>&nbsp;&nbsp; <a href="https://enseignant.iitadmin.tn/login" class="btn btn-secondary" target="_blank" ></i> &nbsp;Enseignant</a>
-                </div>
-
-                <div class="col-sm-6">
-                    <a href="https://iit.tn" title="logo" target="_blank">
-                      <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" class="hero-img" style="max-width: 80%; height: auto; margin-left:25%" alt="">
-                    </a>
-                  </div>
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" style="margin-top: 3%;">
+                <h1 class="jumbo" style="font-family: Georgia;">BIENVENUE...</h1>
+                <p>La satisfaction de nos clients est notre priorité.</p>
+                <br>
+                <a href="http://127.0.0.1:8000/login" class="btn btn-primary btn-lg" target="_blank"><i class="fa-solid fa-download"></i> &nbsp;Administration</a>&nbsp;&nbsp;
+                <a href="https://enseignant.iitadmin.tn/login" class="btn btn-secondary" target="_blank"><i class="fa-solid fa-download"></i> &nbsp;Enseignant</a>
             </div>
+
+            <div class="col-sm-6">
+                <a href="https://iit.tn" title="logo" target="_blank">
+                    <img src="https://iit.tn/wp-content/uploads/2019/06/logoISB1-1.png" class="hero-img" style="max-width: 80%; height: auto; margin-left: 25%;" alt="">
+                </a>
+            </div>
+
+
         </div>
         <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
             <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
-                <p style="font-size: 1.5rem; color: #0d1d42; margin-left:80%; margin-top:17%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
+                <p style="font-size: 1.5rem; color: #0d1d42; margin-left: 75%; margin-top:68%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
             </a>
+
         </div>
-
-    </section>
-
- 
-
-    <!-- Footer -->
-
+        <div style="border: none; border-top: 3px double #ededf2; color: #1307c5; overflow: visible; text-align: center; height: 5px; margin-top:35%"></div>
+    </div>
+</section>
 
 <style> html{
     font-size:1rem;
-    line-height:1.65;
+
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
     -ms-overflow-style:scrollbar;
@@ -61,8 +46,7 @@
 body{
     font-family:"Manrope",sans-serif;
     color:#8391a7;
-    font-weight:500;
- max-height: 200;;
+    font-weight:300;
     margin:0
 }
 main{
@@ -289,7 +273,7 @@ header #navbar .logo{
     max-width:100px
 }
 #hero{
-    padding:0 0 12rem 0;
+    padding:0 0 9rem 0;
     background-image:radial-gradient(54.35% 54.35% at 13.82% 7%, #213ab9 0%, #a6b8fe 100%)
 }
 #hero .hero-img{
@@ -341,7 +325,7 @@ header #navbar .logo{
 }
 #trusted{
     padding:3rem 0;
-    background:#f9fafb
+    background:#013f7c
 }
 #trusted a{
     padding:0 1.5rem;
@@ -351,7 +335,7 @@ header #navbar .logo{
 #trusted a svg{
     display:block
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 900PX){
     #trusted a svg{
         display:block;
         max-width:140px;
