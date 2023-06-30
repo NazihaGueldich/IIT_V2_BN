@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
             <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
-                <p style="font-size: 1.5rem; color: #0d1d42; margin-left: 75%; margin-top:68%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
+                <p style="font-size: 1.5rem; color: #0d1d42; margin-left: 76%; margin-top:68%;"><small>&copy; <strong>Exadev.tn</strong></small></p>
             </a>
 
         </div>
@@ -273,7 +273,7 @@ header #navbar .logo{
     max-width:100px
 }
 #hero{
-    padding:0 0 9rem 0;
+    padding:0 0 0.75rem 0;
     background-image:radial-gradient(54.35% 54.35% at 13.82% 7%, #213ab9 0%, #a6b8fe 100%)
 }
 #hero .hero-img{
@@ -315,7 +315,7 @@ header #navbar .logo{
         padding-bottom:6rem
     }
     #hero{
-        padding:0 0 6rem 0
+
     }
     #hero .hero-img{
 
