@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Arr;
+
 use Illuminate\Http\Request;
-use App\Models\Historique_Notification;
+use App\Models\Admin\Historique_Notification;
 use App\Models\Admin\Document_Demande;
 use Barryvdh\DomPDF\Facade as PDF;
 use Illuminate\Support\Facades\DB;
@@ -88,6 +90,6 @@ class AffectationStageController extends Controller
             ->where('document_demande.id', '=', $doc->id)
             ->get();
 
-        return view('admins.affectation_stage.pdf', compact('documents', 'firstYear', 'secondYear', 'date'));
+        return view('admin.affectation_stage.pdf', compact('documents', 'firstYear', 'secondYear', 'date'));
     }
 }

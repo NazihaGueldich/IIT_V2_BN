@@ -25,11 +25,11 @@
         </div>
         <div class="col-md-3 offset-md-3 col-sm-6 text-center" style="font-family: Gill Sans Extrabold, sans-serif;">
             <a href="https://exadev.tn/" target="_blank" style="color: #c4c9d8">
-                <p style="font-size: 1.5rem; color: #0d1d42; margin-left: auto; margin-right: -25rem; margin-top: 23rem;"><small>&copy; <strong>Exadev.tn</strong></small></p>
+                <p style="font-size: 1.5rem; color: #0d1d42; margin-left: auto; margin-right: -38rem; margin-top: 13rem;"><small>&copy; <strong>Exadev.tn</strong></small></p>
             </a>
         </div>
 
-        <div style="border: none; border-top: 6px double #ededf2; color: #1307c5; overflow: visible; text-align: center; height: 5px; margin-top: 35%;"></div>
+        <div style="border: none; border-top: 6px double #ededf2; color: #1307c5; overflow: visible; text-align: center; height: 5px; margin-top: 21%;"></div>
     </div>
 </section>
 
