@@ -44,7 +44,10 @@ Route::group(['middleware' => 'auth:admin'], function () {
 
 // Validation Note
 Route::controller(NoteValidationController::class)->group(function(){
-   Route::get('validation_note',"index")->name('validationNote');
+    Route::get('validation_note',"index")->name('validationNote');
+    Route::get('validation_note/part2',"getGroupeModules")->name('validationNote.part2');   
+    Route::get('validation_note/part3',"getModules")->name('validationNote.part3');   
+
    Route::get('validation_note/filter',"filter")->name('validationNote.filter');
    Route::get('validation_note/unlock',"unlock")->name('validationNote.unlock');
    Route::get('validation_note/validate',"validateNote")->name('validationNote.validate');
